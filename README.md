@@ -1,3 +1,3 @@
 # nipro_agency
 
-![Alt Text](images/about_us.jpg)
+![Alt Text](images/Nipro-Agency.jpg)
