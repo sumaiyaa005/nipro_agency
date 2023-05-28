@@ -1,0 +1,343 @@
+/******************************* font link ********************************/
+@font-face {
+    font-family: lato-bold;
+    src: url(../../font/lato/lato-bold.ttf);
+}
+
+@font-face {
+    font-family: lato-regular;
+    src: url(../../font/lato/lato-regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../../font/roboto/roboto-regular.ttf);
+}
+
+/******************************* common start ******************************/
+
+body {
+    font-family: roboto-regular;
+    font-size: 16px;
+    color: #8e8e8e;
+    background-color: #FFFFFF;
+}
+
+.c_btm_padding {
+    padding-bottom: 90px;
+}
+
+.c_btn {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: lato-bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.c_btn_i {
+    margin: 0px 0px 0 22px;
+}
+
+.bl_border {
+    border: 1px solid #333333;
+}
+
+.bl_border:hover {
+    color: #8e8e8e;
+    border: 1px solid #8e8e8e;
+}
+
+/******************************* common end ******************************/
+/******************************* header start ******************************/
+
+header {
+    padding: 18px 0;
+}
+
+.c_nav {}
+
+.logo h1 {
+    font-family: lato-regular;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.ntc:focus {
+    box-shadow: none;
+}
+
+.menu ul li a {
+    padding: 0 15px !important;
+    font-family: lato-regular;
+    color: #8e8e8e !important;
+    line-height: 27px;
+    text-transform: uppercase;
+
+}
+
+.menu ul li a:hover {
+    color: #333333 !important;
+
+}
+
+.btn_s {
+    padding: 0 0 0 15px;
+    background-color: transparent;
+    font-size: 16px;
+    color: #8e8e8e;
+    border: none;
+}
+
+.off_title {
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.off_title h5 {
+    font-family: lato-regular;
+    font-size: 16px;
+    color: #8e8e8e;
+    text-transform: uppercase;
+
+}
+
+.off_title button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.s_input {
+    width: 100%;
+    height: 45px;
+}
+
+.s_input:focus {
+    box-shadow: none;
+    border: 1px solid #333333;
+}
+
+.off_search_btn {
+    width: 100%;
+    height: 45px;
+    color: #8e8e8e;
+    border: none;
+}
+
+.off_search_btn:focus {
+    color: #333333;
+    border: none;
+}
+
+/******************************* header end ******************************/
+/******************************* slider start ******************************/
+.slider {
+    background-image: url('../../images/slider.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.s_item {
+    margin: 200px 0 190px;
+    color: #FFFFFF;
+}
+
+.s_title {
+    font-family: lato-bold;
+    font-size: 60px;
+}
+
+.s_pa {
+    padding: 18px 85px 25px 0;
+    line-height: 30px;
+}
+
+
+.sl_btn {
+    background-color: #FFFFFF;
+}
+
+
+
+.sl_btn:hover {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.control_btn button {
+    font-family: roboto-regular;
+    font-size: 16px;
+    color: #8e8e8e;
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+
+}
+
+.control_btn button:focus {
+    color: #333333;
+
+}
+
+.btn_p {}
+
+.control_btn span:nth-child(3) {
+    color: #333333;
+
+}
+
+.btn_n {}
+
+/******************************* slider end ******************************/
+/******************************* service start ******************************/
+.service {}
+
+.vertcal_line {
+    width: 2px;
+    height: 50px;
+    background-color: #333333;
+}
+
+
+.wel_service {}
+
+.wel_t {}
+
+.wel_t h1 {
+    padding-top: 18px;
+    font-family: lato-regular;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.wel_p p {
+    padding: 40px 0 0 0;
+    line-height: 30px;
+}
+
+.sv_item {
+    margin-top: 80px;
+    padding: 0px 15px 35px;
+    border: 2px solid #8e8e8e;
+}
+
+.sv_item:hover {
+    border: 2px solid #333333;
+
+}
+
+.sv_icon {
+    width: 68px;
+    margin: -6px auto 34px;
+    background-color: #FFFFFF;
+}
+
+.sv_item:hover .sv_icon i {
+    color: #333333;
+
+}
+
+
+.sv_icon i {
+    font-size: 60px;
+    line-height: 30px;
+}
+
+.sv_h2 {
+    font-family: lato-bold;
+    font-size: 20px;
+    color: #333333;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.sv_hr {
+    width: 50px;
+    margin: 18px auto;
+    color: 2px solid #8e8e8e;
+    opacity: 1;
+}
+
+
+.sv_p {
+    margin-bottom: 30px;
+}
+
+
+.sv_a {
+    margin: 0 auto;
+    color: #8e8e8e;
+}
+
+.sv_item:hover .sv_a {
+    color: #333333;
+
+}
+
+.sv_a span {}
+
+/* .sv_a i {
+    margin-left: 12px;
+} */
+
+/******************************* service end ******************************/
+/******************************* about us start ******************************/
+.about_us {}
+
+.about_img {}
+
+.about_img img {
+    width: 100%;
+}
+
+.about_us_t {
+    padding-left: 45px;
+}
+
+.about_us_title {
+    padding-bottom: 40px;
+    font-family: lato-regular;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+
+
+}
+
+.about_us_p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    line-height: 27px;
+}
+
+
+.about_us_p_1 {
+    margin-top: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 27px;
+}
+
+
+
+.about_btn {
+    margin-top: 44px;
+}
+
+
+
+
+
+/******************************* about us end ******************************/

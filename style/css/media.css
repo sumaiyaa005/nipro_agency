@@ -1,0 +1,417 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /************** header start **************/
+
+    /************* common start **********/
+
+
+
+
+    .c_btm_padding {
+        padding-bottom: 40px;
+    }
+
+
+    .c_btn {
+        width: 157px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .c_btn_i {
+        margin: 0 0 0 15px;
+    }
+
+    /************* common end **********/
+
+
+    header {
+        padding: 8px 0;
+    }
+
+    .logo h1 {
+        font-size: 25px;
+    }
+
+    .menu ul li a {
+        margin-bottom: 15px;
+        padding: 0 0px !important;
+    }
+
+    .btn_s {
+        padding: 0 0 0 0px !important;
+
+    }
+
+    /************** header end **************/
+    /************** slider start **************/
+    .s_item {
+        margin: 80px 3px 70px;
+    }
+
+    .s_title {
+        font-size: 27px;
+    }
+
+    .s_pa {
+        padding: 5px 0px 10px 0;
+    }
+
+    .sl_btn {}
+
+
+
+    /************** slider end**************/
+
+    /************** service start**************/
+    .wel_t {
+        margin-top: 20px;
+    }
+
+    .vertcal_line {
+        height: 40px;
+    }
+
+    .wel_t h1 {
+        font-size: 25px;
+    }
+
+    .wel_p p {
+        padding: 25px 0px 0 0px;
+        text-align: justify;
+    }
+
+    .sv_item {
+        margin-top: 40px;
+        padding: 0px 10px 30px;
+    }
+
+    .sv_p {
+        margin-bottom: 25px;
+    }
+
+    /************** service end**************/
+
+    /************** about us start**************/
+
+
+
+    .about_us_t {
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+
+    .about_us_title {
+        padding-bottom: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .about_us_p {
+        line-height: 30px;
+    }
+
+    .about_us_p_1 {
+        margin-top: 20px;
+        line-height: 30px;
+
+    }
+
+    .about_btn {
+        margin: 30px auto 0;
+    }
+
+    /************** about us end**************/
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /************** common start **************/
+
+    .c_btm_padding {
+        padding-bottom: 60px;
+    }
+
+    /************** common end **************/
+
+
+    /************** header start **************/
+
+    header {
+        padding: 14px 0;
+
+    }
+
+    .menu ul li a {
+        margin-bottom: 15px;
+        padding: 0 0px !important;
+    }
+
+
+    .btn_s {
+        padding: 0 0 0 0px !important;
+
+    }
+
+
+    /************** header end **************/
+    /************** slider start **************/
+    .s_item {
+        margin: 125px 0 105px;
+    }
+
+    .s_title {
+        font-size: 43px;
+    }
+
+    .s_pa {
+        padding: 14px 25px 19px 0;
+    }
+
+    /************** slider end**************/
+    /************** service start**************/
+
+
+    .wel_p p {
+        padding: 30px 0 0 0;
+        text-align: justify;
+    }
+
+    .sv_item {
+        margin-top: 60px;
+        padding: 0px 8px 30px;
+    }
+
+    .sv_p {
+        margin-bottom: 25px;
+    }
+
+    /************** service end**************/
+
+    /************** about us start**************/
+
+    .about_img img {
+        padding: 0 35px;
+    }
+
+    .about_us_t {
+        margin-top: 50px;
+        padding-left: 0px;
+    }
+
+    .about_us_title {
+        padding-bottom: 28px;
+        text-align: center;
+    }
+
+    .about_us_p {
+        line-height: 30px;
+    }
+
+    .about_us_p_1 {
+        margin-top: 28px;
+        line-height: 30px;
+    }
+
+    .about_btn {
+        margin: 35px auto 0;
+    }
+
+    /************** about us end**************/
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /************** common start **************/
+
+    .c_btm_padding {
+        padding-bottom: 60px;
+    }
+
+    /************** common end **************/
+
+    /************** header start **************/
+
+    header {
+        padding: 14px 0;
+
+    }
+
+    .menu ul li a {
+        margin-bottom: 15px;
+        padding: 0 0px !important;
+    }
+
+    .btn_s {
+        padding: 0 0 0 0px;
+
+    }
+
+    /************** header end **************/
+    /************** slider start **************/
+    .s_item {
+        margin: 142px 0 130px;
+    }
+
+    .s_title {
+        font-size: 50px;
+    }
+
+    .s_pa {
+        padding: 18px 142px 25px 0;
+    }
+
+    /************** slider end**************/
+    /************** service start**************/
+
+    .wel_t h1 {
+        padding-top: 25px;
+    }
+
+
+    .wel_p p {
+        padding: 30px 0 0 0;
+        text-align: justify;
+
+    }
+
+    .sv_item {
+        margin-top: 60px;
+        padding: 0px 15px 35px;
+        border: 2px solid #8e8e8e;
+    }
+
+    /************** service end**************/
+
+    /************** about us start**************/
+
+    .about_img img {
+        padding: 0 120px;
+    }
+
+    .about_us_t {
+        margin-top: 60px;
+        padding-left: 0px;
+    }
+
+    .about_us_title {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .about_us_p {
+        line-height: 30px;
+
+    }
+
+    .about_us_p_1 {
+        margin-top: 30px;
+        line-height: 30px;
+    }
+
+    .about_btn {
+        margin: 30px auto 0;
+    }
+
+    /************** about us end**************/
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /************** slider start **************/
+    .s_title {
+        font-size: 55px;
+    }
+
+    .s_pa {
+        padding: 18px 0px 25px 0;
+    }
+
+    /************** slider end**************/
+    /************** service start**************/
+
+    .wel_t h1 {
+        padding-top: 28px;
+    }
+
+    .wel_p p {
+        padding: 40px 0 0 0;
+    }
+
+    .sv_item {
+        padding: 0px 8px 25px;
+    }
+
+    .sv_icon i {
+        font-size: 55px;
+        line-height: 24px;
+    }
+
+    .sv_p {
+        margin-bottom: 25px;
+    }
+
+    /************** service end**************/
+
+    /************** about us start**************/
+    .about_us_title {
+        padding-bottom: 25px;
+    }
+
+    .about_us_p {
+        -webkit-line-clamp: 3;
+    }
+
+
+    .about_us_p_1 {
+        margin-top: 25px;
+        -webkit-line-clamp: 2;
+    }
+
+    .about_btn {
+        margin-top: 34px;
+    }
+
+    /************** about us end**************/
+
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /************** about us start**************/
+    .about_us_title {
+        padding-bottom: 34px;
+    }
+
+    .about_us_p {
+        -webkit-line-clamp: 4;
+        line-height: 28px;
+    }
+
+
+    .about_us_p_1 {
+        margin-top: 35px;
+        -webkit-line-clamp: 2;
+        line-height: 28px;
+    }
+
+    /************** about us end**************/
+
+}
+
+
+
+/* Extra-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
