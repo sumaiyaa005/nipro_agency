@@ -1,3 +1,4 @@
 # nipro_agency
 
-            <img src="images/about_us.jpg " class="img-fluid" alt="nipro">
+![Alt Text](images/Nipro%20Agency.psd)
+![Alt Text](images/about_us.jpg)
