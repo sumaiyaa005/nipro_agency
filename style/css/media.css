@@ -3,14 +3,9 @@
     /************** header start **************/
 
     /************* common start **********/
-
-
-
-
     .c_btm_padding {
         padding-bottom: 40px;
     }
-
 
     .c_btn {
         width: 157px;
@@ -59,8 +54,6 @@
 
     .sl_btn {}
 
-
-
     /************** slider end**************/
 
     /************** service start**************/
@@ -91,10 +84,7 @@
     }
 
     /************** service end**************/
-
     /************** about us start**************/
-
-
 
     .about_us_t {
         margin-top: 30px;
@@ -107,13 +97,9 @@
         text-align: center;
     }
 
-    .about_us_p {
-        line-height: 30px;
-    }
 
     .about_us_p_1 {
         margin-top: 20px;
-        line-height: 30px;
 
     }
 
@@ -122,8 +108,49 @@
     }
 
     /************** about us end**************/
+    /************** recent work start**************/
+    .c_nav_tab {
+        margin: 16px 0 0 0;
+    }
 
+    .c_nav_item {
+        margin: 0 0;
+        padding: 8px 9px;
 
+    }
+
+    .r_img {
+        margin: 20px 0 0 0;
+
+    }
+
+    /************** recent work end**************/
+    /************** choose us start**************/
+    .choose_card {
+        margin: 40px 0 0 0;
+    }
+
+    .card_title {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .card_title i {
+        font-size: 40px;
+    }
+
+    .card_title h2 {
+        padding: 5px 12px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    .card_body_p {
+        padding: 10px 0 18px;
+        text-align: center;
+    }
+
+    /************** choose us end**************/
 
 }
 
@@ -136,8 +163,6 @@
     }
 
     /************** common end **************/
-
-
     /************** header start **************/
 
     header {
@@ -155,7 +180,6 @@
         padding: 0 0 0 0px !important;
 
     }
-
 
     /************** header end **************/
     /************** slider start **************/
@@ -190,7 +214,6 @@
     }
 
     /************** service end**************/
-
     /************** about us start**************/
 
     .about_img img {
@@ -221,6 +244,43 @@
     }
 
     /************** about us end**************/
+    /************** recent work start**************/
+    .c_nav_tab {
+        margin: 30px 0 0 0;
+    }
+
+    .c_nav_item {
+        padding: 10px 6px;
+    }
+
+    .r_img {
+        margin: 25px 0 0 0;
+
+    }
+
+    /************** recent work end**************/
+    /************** choose us start**************/
+    .choose_card {
+        margin: 45px 0 0 0;
+
+    }
+
+    .card_title h2 {
+        padding: 6px 16px;
+
+    }
+
+    .card_title i {
+        font-size: 44px;
+    }
+
+
+    .card_body_p {
+        padding: 12px 0 26px;
+    }
+
+    /************** choose us end**************/
+
 
 
 }
@@ -235,7 +295,6 @@
     }
 
     /************** common end **************/
-
     /************** header start **************/
 
     header {
@@ -288,7 +347,6 @@
     }
 
     /************** service end**************/
-
     /************** about us start**************/
 
     .about_img img {
@@ -320,7 +378,39 @@
     }
 
     /************** about us end**************/
+    /************** recent work start**************/
+    .c_nav_tab {
+        margin: 25px 0 0 0;
+    }
 
+    .c_nav_item {
+        padding: 15px 10px;
+    }
+
+    .r_img {
+        margin: 30px 0 0 0;
+    }
+
+    /************** recent work end**************/
+    /************** choose us start**************/
+    .choose_card {
+        margin: 40px 0 0 0;
+    }
+
+    .card_title h2 {
+        padding: 6px 16px;
+
+    }
+
+    .card_title i {
+        font-size: 44px;
+    }
+
+    .card_body_p {
+        padding: 10px 0 28px;
+    }
+
+    /************** choose us end**************/
 
 }
 
@@ -383,6 +473,17 @@
 
     /************** about us end**************/
 
+    /************** choose us start**************/
+    .choose_card {
+        margin: 45px 0 0 0;
+    }
+
+    .card_body_p {
+        padding: 10px 0 28px;
+    }
+
+    /************** choose us end**************/
+
 
 
 }
@@ -408,6 +509,13 @@
     }
 
     /************** about us end**************/
+    /************** choose us start**************/
+    .card_body_p {
+        padding: 10px 0 28px;
+    }
+
+    /************** choose us end**************/
+
 
 }
 
