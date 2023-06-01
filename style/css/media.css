@@ -152,6 +152,24 @@
 
     /************** choose us end**************/
 
+    /************** staff start**************/
+
+    .staff_card {
+        margin: 40px 0 0 0;
+    }
+
+    .staff_s {
+        top: 50px;
+    }
+
+    .staff_s i {
+        font-size: 20px;
+    }
+
+
+
+    /************** staff end**************/
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -281,6 +299,33 @@
 
     /************** choose us end**************/
 
+    /************** staff start**************/
+
+    .staff_card {
+        margin: 50px 0 0 0;
+    }
+
+    .staff_s {
+        width: 40px;
+    }
+
+    .staff_s i {
+        font-size: 18px;
+    }
+
+    .staff_title {
+        padding: 16px 20px;
+    }
+
+    .staff_title h2 {
+        font-size: 16px;
+    }
+
+    .staff_title p {
+        font-size: 14px;
+    }
+
+    /************** staff end**************/
 
 
 }
@@ -411,11 +456,36 @@
     }
 
     /************** choose us end**************/
+    /************** staff start**************/
+
+    .staff_card {
+        margin: 50px 0 0 0;
+    }
+
+    .staff_s {
+        top: 90px;
+    }
+
+    .staff_s i {
+        font-size: 18px;
+    }
+
+    /************** staff end**************/
+
 
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /************** common start **************/
+    .c_btm_padding {
+        padding-bottom: 80px;
+    }
+
+    /************** common end **************/
+
+
 
     /************** slider start **************/
     .s_title {
@@ -430,7 +500,7 @@
     /************** service start**************/
 
     .wel_t h1 {
-        padding-top: 28px;
+        padding-top: 25px;
     }
 
     .wel_p p {
@@ -439,6 +509,8 @@
 
     .sv_item {
         padding: 0px 8px 25px;
+        margin-top: 65px;
+
     }
 
     .sv_icon i {
@@ -475,7 +547,7 @@
 
     /************** choose us start**************/
     .choose_card {
-        margin: 45px 0 0 0;
+        margin: 50px 0 0 0;
     }
 
     .card_body_p {
@@ -483,6 +555,44 @@
     }
 
     /************** choose us end**************/
+    /************** recent start**************/
+    .c_nav_tab {
+        margin: 50px 0 0;
+    }
+
+    .c_nav_item {
+
+        padding: 12px 15px;
+
+    }
+
+    /************** recent end**************/
+
+
+    /************** staff start**************/
+
+    .staff_card {
+        margin: 50px 0 0 0;
+    }
+
+    .staff_s {
+        top: 30px;
+    }
+
+    .staff_s i {
+        font-size: 16px;
+    }
+
+    .staff_title h2 {
+        font-size: 16px;
+    }
+
+    .staff_title p {
+        font-size: 14px;
+    }
+
+
+    /************** staff end**************/
 
 
 
@@ -515,7 +625,26 @@
     }
 
     /************** choose us end**************/
+    /************** staff start**************/
 
+    .staff_s {
+        top: 42px;
+    }
+
+    .staff_s i {
+        font-size: 20px;
+    }
+
+    .staff_title h2 {
+        font-size: 17px;
+    }
+
+    .staff_title p {
+        font-size: 15px;
+    }
+
+
+    /************** staff end**************/
 
 }
 

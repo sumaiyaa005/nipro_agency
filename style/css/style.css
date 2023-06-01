@@ -24,7 +24,7 @@ body {
 }
 
 .c_btm_padding {
-    padding-bottom: 90px;
+    padding-bottom: 110px;
 }
 
 .c_btn {
@@ -222,7 +222,7 @@ header {
 }
 
 .sv_item {
-    margin-top: 80px;
+    margin-top: 85px;
     padding: 0px 15px 35px;
     border: 2px solid #8e8e8e;
 }
@@ -341,12 +341,12 @@ header {
 }
 
 .c_nav_tab {
-    margin: 40px 0 0 0;
+    margin: 55px 0 0;
 }
 
 .c_nav_item {
     margin: 0 10px;
-    padding: 16px 10px;
+    padding: 16px 15px;
     font-family: roboto-regular;
     font-size: 16px;
     color: #8e8e8e !important;
@@ -356,6 +356,11 @@ header {
     text-transform: uppercase;
     transition: 0.33s;
 
+}
+
+.c_nav_item:active {
+    color: #333333;
+    border: 1px solid #333333;
 }
 
 .c_nav_item:focus {
@@ -368,9 +373,10 @@ header {
     border: 1px solid #333333;
 }
 
+
 .r_img {
     position: relative;
-    margin: 35px 0 0 0;
+    margin: 40px 0 0 0;
 
 }
 
@@ -437,6 +443,8 @@ header {
 
 .choose_card {
     margin: 55px 0 0 0;
+
+
 }
 
 .choose_card:hover .card_title {
@@ -467,6 +475,90 @@ header {
     border-bottom: 1px solid #8e8e8e;
 }
 
-
-
 /******************************* choose end ******************************/
+/******************************* staff start ******************************/
+.staff {
+    background-image: url('../../images/staff_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.staff_card {
+    margin: 65px 0 0 0;
+}
+
+.staff_img {
+    position: relative;
+}
+
+.staff_img:hover .staff_s {
+    opacity: 1;
+}
+
+.staff_img img {
+    width: 100%;
+}
+
+.staff_s {
+    position: absolute;
+    overflow: hidden;
+    top: 55px;
+    background-color: white;
+    opacity: 0;
+    transition: 0.33s;
+
+}
+
+
+.staff_i i {
+    padding: 12px;
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+    color: #8e8e8e;
+    border-right: 1px solid transparent;
+    transition: 0.33s;
+
+}
+
+
+
+.staff_i i:hover {
+    color: #333333;
+    background-color: #f8f8f8;
+    border-right: 1px solid #333333;
+}
+
+.staff_i i:active {
+    color: #333333;
+    background-color: #f8f8f8;
+    border-right: 1px solid #333333;
+}
+
+.staff_title {
+    position: relative;
+    padding: 18px 28px;
+    background-color: #FFFFFF;
+}
+
+.staff_title h2 {
+    padding-bottom: 12px;
+    font-family: lato-bold;
+    font-size: 18px;
+    word-spacing: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: #333333;
+    text-transform: uppercase;
+
+}
+
+.staff_title p {}
+
+
+/******************************* staff end ******************************/
