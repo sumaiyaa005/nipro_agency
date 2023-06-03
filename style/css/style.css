@@ -1,23 +1,23 @@
 /******************************* font link ********************************/
 @font-face {
-    font-family: lato-bold;
-    src: url(../../font/lato/lato-bold.ttf);
+    font-family: lato_bold;
+    src: url(../../font/lato/lato_bold.ttf);
 }
 
 @font-face {
-    font-family: lato-regular;
-    src: url(../../font/lato/lato-regular.ttf);
+    font-family: lato_regular;
+    src: url(../../font/lato/lato_regular.ttf);
 }
 
 @font-face {
-    font-family: roboto-regular;
-    src: url(../../font/roboto/roboto-regular.ttf);
+    font-family: roboto_regular;
+    src: url(../../font/roboto/roboto_regular.ttf);
 }
 
 /******************************* common start ******************************/
 
 body {
-    font-family: roboto-regular;
+    font-family: roboto_regular;
     font-size: 16px;
     color: #8e8e8e;
     background-color: #FFFFFF;
@@ -34,7 +34,7 @@ body {
     border-radius: 0;
     align-items: center;
     justify-content: center;
-    font-family: lato-bold;
+    font-family: lato_bold;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -49,8 +49,10 @@ body {
 
 .bl_border:hover {
     color: #8e8e8e;
+    background-color: #f8f8f8;
     border: 1px solid #8e8e8e;
 }
+
 
 /******************************* common end ******************************/
 /******************************* header start ******************************/
@@ -62,7 +64,7 @@ header {
 .c_nav {}
 
 .logo h1 {
-    font-family: lato-regular;
+    font-family: lato_regular;
     font-size: 30px;
     text-transform: uppercase;
 }
@@ -73,7 +75,7 @@ header {
 
 .menu ul li a {
     padding: 0 15px !important;
-    font-family: lato-regular;
+    font-family: lato_regular;
     color: #8e8e8e !important;
     line-height: 27px;
     text-transform: uppercase;
@@ -99,7 +101,7 @@ header {
 }
 
 .off_title h5 {
-    font-family: lato-regular;
+    font-family: lato_regular;
     font-size: 16px;
     color: #8e8e8e;
     text-transform: uppercase;
@@ -148,7 +150,7 @@ header {
 }
 
 .s_title {
-    font-family: lato-bold;
+    font-family: lato_bold;
     font-size: 60px;
 }
 
@@ -170,7 +172,7 @@ header {
 }
 
 .control_btn button {
-    font-family: roboto-regular;
+    font-family: roboto_regular;
     font-size: 16px;
     color: #8e8e8e;
     border: none;
@@ -210,7 +212,7 @@ header {
 
 .wel_t h1 {
     padding-top: 18px;
-    font-family: lato-regular;
+    font-family: lato_regular;
     font-size: 30px;
     color: #333333;
     text-transform: uppercase;
@@ -250,7 +252,7 @@ header {
 }
 
 .sv_h2 {
-    font-family: lato-bold;
+    font-family: lato_bold;
     font-size: 20px;
     color: #333333;
     line-height: 30px;
@@ -298,11 +300,12 @@ header {
 
 .about_us_t {
     padding-left: 45px;
+
 }
 
 .about_us_title {
     padding-bottom: 40px;
-    font-family: lato-regular;
+    font-family: lato_regular;
     font-size: 30px;
     color: #333333;
     text-transform: uppercase;
@@ -347,7 +350,7 @@ header {
 .c_nav_item {
     margin: 0 10px;
     padding: 16px 15px;
-    font-family: roboto-regular;
+    font-family: roboto_regular;
     font-size: 16px;
     color: #8e8e8e !important;
     background-color: transparent !important;
@@ -442,7 +445,7 @@ header {
 .choose {}
 
 .choose_card {
-    margin: 55px 0 0 0;
+    margin: 65px 0 0 0;
 
 
 }
@@ -463,7 +466,7 @@ header {
 
 .card_title h2 {
     padding: 8px 21px;
-    font-family: lato-bold;
+    font-family: lato_bold;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -486,7 +489,7 @@ header {
 }
 
 .staff_card {
-    margin: 65px 0 0 0;
+    margin-top: 65px;
 }
 
 .staff_img {
@@ -528,7 +531,7 @@ header {
 .staff_i i:hover {
     color: #333333;
     background-color: #f8f8f8;
-    border-right: 1px solid #333333;
+    border-right: 1px solid #333333 !important;
 }
 
 .staff_i i:active {
@@ -545,7 +548,7 @@ header {
 
 .staff_title h2 {
     padding-bottom: 12px;
-    font-family: lato-bold;
+    font-family: lato_bold;
     font-size: 18px;
     word-spacing: 1px;
     overflow: hidden;
@@ -560,5 +563,115 @@ header {
 
 .staff_title p {}
 
-
 /******************************* staff end ******************************/
+
+/******************************* pricing start ******************************/
+.pricing {}
+
+
+.price_card {
+    margin: 70px 0 0;
+    padding: 0 35px 40px;
+    border: 1px solid #8e8e8e;
+}
+
+.price_card:hover {
+    border: 1px solid #333333;
+}
+
+.p_basic {
+    margin: -15px 0 0px;
+}
+
+
+.p_basic span {
+    padding: 0 6px;
+    font-size: 18px;
+    font-family: lato_bold;
+    color: #333333;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+
+.price_body {}
+
+
+
+.p_num {
+    padding: 40px 0;
+    font-size: 34px;
+    line-height: 30px;
+    color: #333333;
+
+}
+
+.p_num span {
+    font-size: 20px;
+    color: #8e8e8e;
+}
+
+
+
+.p_li {
+    list-style: none;
+    line-height: 40px;
+}
+
+.p_li:last-child {
+    padding-bottom: 26px;
+}
+
+.pr_btn {
+    margin: 0 auto;
+}
+
+.ash_border {
+    color: #8e8e8e;
+    border: 1px solid #8e8e8e;
+}
+
+.price_card:hover .ash_border {
+    color: #333333;
+    background-color: #f8f8f8;
+    border: 1px solid #333333;
+}
+
+/******************************* pricing end******************************/
+/******************************* buy start******************************/
+.buy_now {
+    padding: 20px 0;
+    background-color: #f8f8f8;
+}
+
+.buy_text {}
+
+.buy_text p {
+    padding: 12px 0 0 0;
+    font-family: lato_regular;
+    font-size: 18px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.buy_btn {
+    margin: 0 0 0 auto;
+}
+
+/******************************* buy end******************************/
+
+/*******************************review start******************************/
+.review {}
+
+.review_card {
+    border: 1px solid #8e8e8e
+}
+
+.review_btn {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    border: 1px solid #8e8e8e;
+
+}
+
+/*******************************review end******************************/

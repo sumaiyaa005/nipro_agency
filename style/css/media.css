@@ -166,9 +166,44 @@
         font-size: 20px;
     }
 
-
-
     /************** staff end**************/
+    /************** pricing start**************/
+    .price_card {
+        margin: 45px 0 0;
+        padding: 0px 12px 30px;
+    }
+
+    .p_basic span {
+        font-size: 16px;
+    }
+
+    .p_num {
+        padding: 28px 0;
+        font-size: 30px;
+    }
+
+    .p_num span {
+        font-size: 18px;
+    }
+
+    .p_li:last-child {
+        padding-bottom: 18px;
+    }
+
+    /************** pricing end**************/
+    /************** buy start***************/
+    .buy_text p {
+        padding: 0px 0 20px 0;
+        font-size: 16px;
+    }
+
+    .buy_btn {
+        margin: 0 auto;
+    }
+
+    /**************** buy end***************/
+
+
 
 }
 
@@ -178,6 +213,10 @@
 
     .c_btm_padding {
         padding-bottom: 60px;
+    }
+
+    .c_btn {
+        font-size: 14px;
     }
 
     /************** common end **************/
@@ -326,6 +365,38 @@
     }
 
     /************** staff end**************/
+    /************** pricing start**************/
+    .price_card {
+        margin: 50px 0 0;
+        padding: 0px 12px 30px;
+    }
+
+    .p_basic span {
+        font-size: 16px;
+    }
+
+    .p_num {
+        padding: 28px 0;
+        font-size: 30px;
+    }
+
+    .p_num span {
+        font-size: 18px;
+    }
+
+    .p_li:last-child {
+        padding-bottom: 18px;
+    }
+
+    /************** pricing end**************/
+    /************** buy start***************/
+    .buy_text p {
+        padding: 14px 0 0 0;
+        font-size: 16px;
+    }
+
+    /**************** buy end***************/
+
 
 
 }
@@ -439,7 +510,7 @@
     /************** recent work end**************/
     /************** choose us start**************/
     .choose_card {
-        margin: 40px 0 0 0;
+        margin: 45px 0 0 0;
     }
 
     .card_title h2 {
@@ -472,6 +543,13 @@
 
     /************** staff end**************/
 
+    /************** pricing start**************/
+    .price_card {
+        margin: 50px 0 0;
+    }
+
+
+    /************** pricing end**************/
 
 }
 
@@ -484,9 +562,6 @@
     }
 
     /************** common end **************/
-
-
-
     /************** slider start **************/
     .s_title {
         font-size: 55px;
@@ -523,7 +598,6 @@
     }
 
     /************** service end**************/
-
     /************** about us start**************/
     .about_us_title {
         padding-bottom: 25px;
@@ -544,7 +618,6 @@
     }
 
     /************** about us end**************/
-
     /************** choose us start**************/
     .choose_card {
         margin: 50px 0 0 0;
@@ -567,8 +640,6 @@
     }
 
     /************** recent end**************/
-
-
     /************** staff start**************/
 
     .staff_card {
@@ -591,11 +662,39 @@
         font-size: 14px;
     }
 
-
     /************** staff end**************/
+    /************** pricing start**************/
 
+    .price_card {
+        padding: 0px 12px 30px;
+    }
 
+    .p_basic span {
+        font-size: 16px;
+    }
 
+    .p_num {
+        padding: 28px 0;
+        font-size: 30px;
+    }
+
+    .p_num span {
+        font-size: 18px;
+    }
+
+    .p_li:last-child {
+        padding-bottom: 18px;
+    }
+
+    /************** pricing end**************/
+    /************** buy start***************/
+
+    .buy_text p {
+        padding: 14px 0 0 0;
+        font-size: 16px;
+    }
+
+    /**************** buy end***************/
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -643,8 +742,15 @@
         font-size: 15px;
     }
 
-
     /************** staff end**************/
+    /************** pricing start**************/
+    .price_card {
+        padding: 0px 24px 40px;
+    }
+
+    /************** pricing end**************/
+
+
 
 }
 
