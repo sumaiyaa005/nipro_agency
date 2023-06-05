@@ -1,6 +1,10 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
     /************** header start **************/
+    /* .container {
+        width: 90%;
+    } */
 
     /************* common start **********/
     .c_btm_padding {
@@ -41,18 +45,33 @@
     /************** header end **************/
     /************** slider start **************/
     .s_item {
-        margin: 80px 3px 70px;
+        margin: 50px 0px 70px;
+        text-align: center;
     }
 
     .s_title {
-        font-size: 27px;
+        font-size: 35px;
+
     }
 
     .s_pa {
         padding: 5px 0px 10px 0;
     }
 
-    .sl_btn {}
+    .sl_btn {
+        margin: 0 auto;
+    }
+
+    .control_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .control_btn button {
+        margin: 0 auto;
+    }
+
 
     /************** slider end**************/
 
@@ -705,7 +724,7 @@
     }
 
     .review_btn_prev {
-        margin: 30px 0 80px 0;
+        margin: 25px 0 80px 0;
         font-size: 14px;
 
     }
@@ -720,7 +739,7 @@
     }
 
     .review_btn_next {
-        margin: 80px 0 30px 0;
+        margin: 80px 0 25px 0;
         font-size: 14px;
     }
 

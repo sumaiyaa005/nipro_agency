@@ -145,7 +145,7 @@ header {
 }
 
 .s_item {
-    margin: 200px 0 190px;
+    margin: 180px 0 190px;
     color: #FFFFFF;
 }
 
@@ -170,6 +170,9 @@ header {
     background-color: transparent;
     color: #FFFFFF;
 }
+
+
+
 
 .control_btn button {
     font-family: roboto_regular;
