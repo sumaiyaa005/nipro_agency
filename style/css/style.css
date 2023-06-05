@@ -586,8 +586,8 @@ header {
 
 .p_basic span {
     padding: 0 6px;
-    font-size: 18px;
     font-family: lato_bold;
+    font-size: 18px;
     color: #333333;
     background-color: white;
     text-transform: uppercase;
@@ -664,14 +664,111 @@ header {
 .review {}
 
 .review_card {
-    border: 1px solid #8e8e8e
+    padding: 30px;
+    border: 1px solid #8e8e8e;
 }
 
-.review_btn {
+.review_card_img {}
+
+.review_card_img img {
+    width: 100%;
+}
+
+.review_text {}
+
+.r_text_t1 {
+    font-family: lato_bold;
+    font-size: 18px;
+    color: #333333;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.r_text_t2 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.r_text_t3 {
+    font-size: 18px;
+    color: #333333;
+    line-height: 30px;
+
+}
+
+.r_text_p {
+    padding-top: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 27px;
+}
+
+.r_text_p_1 {
+    padding-top: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 27px;
+
+}
+
+
+.review_btn_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     writing-mode: vertical-rl;
     text-orientation: mixed;
+    background-color: #f8f8f8;
     border: 1px solid #8e8e8e;
 
 }
+
+
+.review_btn_prev {
+    margin: 32px 0 100px 0;
+    border: none;
+    color: #8e8e8e;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.review_btn_prev:active {
+    color: #333333;
+}
+
+.review_btn_wrapper span {
+    width: 20px;
+    height: 1px;
+    margin: 3px;
+    background-color: #8e8e8e;
+    opacity: 1;
+}
+
+.review_btn_wrapper span:nth-child(3) {
+    width: 30px !important;
+    background-color: #333333;
+
+}
+
+.review_btn_next {
+    margin: 100px 0 32px 0;
+    border: none;
+    color: #8e8e8e;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+
+.review_btn_next:active {
+    color: #333333;
+}
+
 
 /*******************************review end******************************/

@@ -195,6 +195,7 @@
     .buy_text p {
         padding: 0px 0 20px 0;
         font-size: 16px;
+        text-align: center;
     }
 
     .buy_btn {
@@ -202,6 +203,65 @@
     }
 
     /**************** buy end***************/
+    /*************review start**************/
+
+    .review_card {
+        padding: 20px 20px 40px;
+    }
+
+    .review_card_img {
+
+        padding: 30px 30px 30px;
+
+    }
+
+    .review_card_img img {}
+
+    .review_text {
+        text-align: center;
+    }
+
+
+    .r_text_p {
+        padding-top: 10px;
+
+    }
+
+    .r_text_p_1 {
+        padding-top: 10px;
+    }
+
+
+
+    .review_btn_wrapper {
+        margin-top: 15px;
+        padding: 10px;
+        writing-mode: horizontal-tb;
+        /* text-orientation: sideways; */
+
+    }
+
+    .review_btn_prev {
+        margin: 0px auto 0px auto;
+    }
+
+    .review_btn_wrapper span {
+        width: 15px;
+        margin: -4px;
+        transform: rotate(90deg);
+    }
+
+    .review_btn_wrapper span:nth-child(3) {
+        width: 20px !important;
+
+    }
+
+    .review_btn_next {
+        margin: 0px auto 0px auto;
+    }
+
+
+    /*************review end**************/
 
 
 
@@ -396,6 +456,86 @@
     }
 
     /**************** buy end***************/
+    /*************review start**************/
+
+    .review_card {
+        padding: 20px;
+    }
+
+    .review_card_img {
+
+        padding: 10px 100px 30px;
+
+    }
+
+    .review_card_img img {
+        height: 270px;
+        border-radius: 50%;
+
+    }
+
+    .review_text {
+        text-align: center;
+    }
+
+    .r_text_t1 {
+        font-size: 20px;
+        padding-bottom: 5px;
+
+    }
+
+    .r_text_t2 {
+        font-size: 20px;
+        padding-bottom: 5px;
+
+    }
+
+    .r_text_t3 {
+        font-size: 20px;
+        padding-bottom: 5px;
+
+
+    }
+
+    .r_text_p {
+        padding-top: 20px;
+    }
+
+    .r_text_p_1 {
+        padding-top: 20px;
+    }
+
+
+
+    .review_btn_wrapper {
+        margin-top: 15px;
+        padding: 10px;
+        writing-mode: horizontal-tb;
+        /* text-orientation: sideways; */
+
+    }
+
+    .review_btn_prev {
+        margin: 0px auto 0px auto;
+    }
+
+    .review_btn_wrapper span {
+        width: 15px;
+        margin: -4px;
+        transform: rotate(90deg);
+    }
+
+    .review_btn_wrapper span:nth-child(3) {
+        width: 20px !important;
+
+    }
+
+    .review_btn_next {
+        margin: 0px auto 0px auto;
+    }
+
+
+    /*************review end**************/
 
 
 
@@ -548,8 +688,44 @@
         margin: 50px 0 0;
     }
 
-
     /************** pricing end**************/
+    /*************review start**************/
+    .review_card {
+        padding: 20px;
+    }
+
+    .r_text_p {
+        padding-top: 20px;
+
+    }
+
+    .r_text_p_1 {
+        padding-top: 20px;
+
+    }
+
+    .review_btn_prev {
+        margin: 30px 0 80px 0;
+        font-size: 14px;
+
+    }
+
+    .review_btn_wrapper span {
+        width: 15px;
+    }
+
+    .review_btn_wrapper span:nth-child(3) {
+        width: 20px !important;
+
+    }
+
+    .review_btn_next {
+        margin: 80px 0 30px 0;
+        font-size: 14px;
+    }
+
+    /*************review end**************/
+
 
 }
 
@@ -695,6 +871,30 @@
     }
 
     /**************** buy end***************/
+    /*************review start**************/
+
+    .r_text_p {
+        padding-top: 20px;
+        -webkit-line-clamp: 2;
+
+    }
+
+    .r_text_p_1 {
+        padding-top: 20px;
+        -webkit-line-clamp: 1;
+
+    }
+
+    .review_btn_prev {
+        margin: 24px 0 60px 0;
+    }
+
+    .review_btn_next {
+        margin: 60px 0 24px 0;
+    }
+
+    /*************review end**************/
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -749,8 +949,28 @@
     }
 
     /************** pricing end**************/
+    /*************review start**************/
+
+    .r_text_p {
+        padding-top: 20px;
+    }
+
+    .r_text_p_1 {
+        padding-top: 20px;
+
+    }
 
 
+
+    .review_btn_prev {
+        margin: 20px 0 90px 0;
+    }
+
+    .review_btn_next {
+        margin: 90px 0 20px 0;
+    }
+
+    /*************review end**************/
 
 }
 
