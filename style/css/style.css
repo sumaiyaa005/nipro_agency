@@ -735,7 +735,7 @@ header {
 
 
 .review_btn_prev {
-    margin: 32px 0 100px 0;
+    margin: 30px 0 100px 0;
     border: none;
     color: #8e8e8e;
     background-color: transparent;
@@ -761,7 +761,7 @@ header {
 }
 
 .review_btn_next {
-    margin: 100px 0 32px 0;
+    margin: 100px 0 29px 0;
     border: none;
     color: #8e8e8e;
     background-color: transparent;
@@ -773,5 +773,99 @@ header {
     color: #333333;
 }
 
-
 /*******************************review end******************************/
+/*******************************contact us start************************/
+.contact_form_wapper {
+    padding: 0 160px;
+    border: 1px solid #8e8e8e;
+}
+
+.contact_heading {
+    margin-top: -16px;
+}
+
+.contact_heading span {
+    padding: 0 10px;
+    font-family: lato_regular;
+    font-size: 30px;
+    color: #333333;
+    background-color: #FFFFFF;
+    line-height: 30px;
+    text-transform: uppercase;
+
+}
+
+.input_wapper {
+    padding-top: 70px;
+}
+
+.input_wapper input {
+    width: 100%;
+    padding: 35px 15px 15px;
+    font-family: roboto_regular;
+    font-size: 16px;
+    color: #8e8e8e;
+    border: none;
+    border-bottom: 1px solid #8e8e8e;
+
+}
+
+.input_wapper input::placeholder {
+    color: #8e8e8e;
+}
+
+.input_wapper input:focus::placeholder {
+    color: #333333
+}
+
+
+.input_wapper input:focus {
+    color: #333333;
+    border-bottom: 1px solid #333333;
+    outline: none
+}
+
+
+.fn_input {}
+
+.fl_input {}
+
+.email_input {}
+
+.msg_box {
+    width: 100%;
+    padding: 50px 15px 30px;
+    font-family: roboto_regular;
+    font-size: 16px;
+    color: #8e8e8e;
+    border: none;
+    border-bottom: 1px solid #8e8e8e;
+}
+
+.msg_box:focus {
+    color: #333333;
+    border-bottom: 1px solid #333333;
+    outline: none
+}
+
+.msg_box ::placeholder {
+    color: #8e8e8e;
+}
+
+.msg_box:focus::placeholder {
+    color: #333333
+}
+
+.submit_btn {
+    margin: 40px auto 45px;
+    color: #8e8e8e;
+    border: 1px solid #8e8e8e;
+}
+
+.submit_btn:focus {
+    color: #333333;
+    border: 1px solid #333333;
+    background-color: #f8f8f8;
+}
+
+/*******************************contact us end***********************/

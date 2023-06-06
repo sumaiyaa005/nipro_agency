@@ -12,9 +12,11 @@
     }
 
     .c_btn {
-        width: 157px;
-        height: 50px;
+
+        width: 150px;
+        height: 45px;
         font-size: 14px;
+
     }
 
     .c_btn_i {
@@ -279,8 +281,37 @@
         margin: 0px auto 0px auto;
     }
 
-
     /*************review end**************/
+    /*************contact us start**************/
+
+    .contact_heading span {
+        padding: 0 8px;
+        font-size: 25px;
+
+    }
+
+    .contact_form_wapper {
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .input_wapper {
+        padding-top: 25px;
+    }
+
+    .input_wapper input {
+        padding: 22px 15px 15px;
+    }
+
+    .msg_box {
+        padding: 35px 15px 20px;
+    }
+
+    .submit_btn {
+        margin: 30px auto 35px;
+    }
+
+    /*************contact us end**************/
 
 
 
@@ -333,6 +364,10 @@
 
     /************** slider end**************/
     /************** service start**************/
+
+    .wel_t h1 {
+        font-size: 25px;
+    }
 
 
     .wel_p p {
@@ -553,8 +588,26 @@
         margin: 0px auto 0px auto;
     }
 
-
     /*************review end**************/
+    /*************contact us start**************/
+    .contact_heading span {
+        padding: 0 8px;
+        font-size: 25px;
+
+    }
+
+    .contact_form_wapper {
+        margin-top: 10px;
+        padding: 0 25px;
+    }
+
+    .input_wapper {
+        padding-top: 25px;
+    }
+
+    /*************contact us end**************/
+
+
 
 
 
@@ -744,6 +797,33 @@
     }
 
     /*************review end**************/
+    /*************contact us start*********/
+    .contact_form_wapper {
+        margin-top: 10px;
+        padding: 0 80px;
+    }
+
+    .input_wapper {
+        padding-top: 50px;
+    }
+
+    .input_wapper input {
+        padding: 30px 15px 10px;
+
+    }
+
+    .msg_box {
+        padding: 40px 15px 30px;
+    }
+
+
+    .submit_btn {
+        margin: 30px auto 35px;
+    }
+
+
+    /*************contact us end*********/
+
 
 
 }
@@ -913,6 +993,18 @@
     }
 
     /*************review end**************/
+    /*************contact us start*********/
+    .contact_form_wapper {
+        padding: 0 100px;
+    }
+
+    .input_wapper {
+        padding-top: 50px;
+    }
+
+    /*************contact us end*********/
+
+
 
 }
 
