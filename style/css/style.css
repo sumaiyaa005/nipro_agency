@@ -213,7 +213,7 @@ header {
 
 .wel_t {}
 
-.wel_t h1 {
+.wel_t h2 {
     padding-top: 18px;
     font-family: lato_regular;
     font-size: 30px;
@@ -229,11 +229,11 @@ header {
 .sv_item {
     margin-top: 85px;
     padding: 0px 15px 35px;
-    border: 2px solid #8e8e8e;
+    border: 1px solid #cccccc;
 }
 
 .sv_item:hover {
-    border: 2px solid #333333;
+    border: 1px solid #333333;
 
 }
 
@@ -265,8 +265,7 @@ header {
 .sv_hr {
     width: 50px;
     margin: 18px auto;
-    color: 2px solid #8e8e8e;
-    opacity: 1;
+    opacity: 0.4;
 }
 
 
@@ -478,7 +477,7 @@ header {
     padding: 20px 0 28px;
     text-align: justify;
     line-height: 27px;
-    border-bottom: 1px solid #8e8e8e;
+    border-bottom: 1px solid #cccccc;
 }
 
 /******************************* choose end ******************************/
@@ -533,13 +532,13 @@ header {
 
 .staff_i i:hover {
     color: #333333;
-    background-color: #f8f8f8;
+    background-color: #FFFFFF;
     border-right: 1px solid #333333 !important;
 }
 
 .staff_i i:active {
     color: #333333;
-    background-color: #f8f8f8;
+    background-color: #FFFFFF;
     border-right: 1px solid #333333;
 }
 
@@ -575,7 +574,7 @@ header {
 .price_card {
     margin: 70px 0 0;
     padding: 0 35px 40px;
-    border: 1px solid #8e8e8e;
+    border: 1px solid #cccccc;
 }
 
 .price_card:hover {
@@ -631,7 +630,7 @@ header {
 
 .ash_border {
     color: #8e8e8e;
-    border: 1px solid #8e8e8e;
+    border: 1px solid #cccccc;
 }
 
 .price_card:hover .ash_border {
@@ -649,7 +648,7 @@ header {
 
 .buy_text {}
 
-.buy_text p {
+.buy_text h2 {
     padding: 12px 0 0 0;
     font-family: lato_regular;
     font-size: 18px;
@@ -668,7 +667,7 @@ header {
 
 .review_card {
     padding: 30px;
-    border: 1px solid #8e8e8e;
+    border: 1px solid #cccccc;
 }
 
 .review_card_img {}
@@ -729,7 +728,7 @@ header {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     background-color: #f8f8f8;
-    border: 1px solid #8e8e8e;
+    border: 1px solid #cccccc;
 
 }
 
@@ -777,21 +776,25 @@ header {
 /*******************************contact us start************************/
 .contact_form_wapper {
     padding: 0 160px;
-    border: 1px solid #8e8e8e;
+    border: 1px solid #cccccc;
 }
 
 .contact_heading {
-    margin-top: -16px;
+    margin-top: -18px;
+
 }
 
-.contact_heading span {
+.contact_heading h2 {
+    display: inline;
     padding: 0 10px;
     font-family: lato_regular;
     font-size: 30px;
+    text-align: center;
     color: #333333;
     background-color: #FFFFFF;
     line-height: 30px;
     text-transform: uppercase;
+
 
 }
 
@@ -804,9 +807,9 @@ header {
     padding: 35px 15px 15px;
     font-family: roboto_regular;
     font-size: 16px;
-    color: #8e8e8e;
+    border: 1px solid #cccccc;
     border: none;
-    border-bottom: 1px solid #8e8e8e;
+    border-bottom: 1px solid #cccccc;
 
 }
 
@@ -839,7 +842,7 @@ header {
     font-size: 16px;
     color: #8e8e8e;
     border: none;
-    border-bottom: 1px solid #8e8e8e;
+    border-bottom: 1px solid #cccccc;
 }
 
 .msg_box:focus {
@@ -859,7 +862,13 @@ header {
 .submit_btn {
     margin: 40px auto 45px;
     color: #8e8e8e;
-    border: 1px solid #8e8e8e;
+    border: 1px solid #cccccc;
+}
+
+.submit_btn:hover {
+    color: #333333;
+    border: 1px solid #333333;
+    background-color: #f8f8f8;
 }
 
 .submit_btn:focus {
@@ -869,3 +878,84 @@ header {
 }
 
 /*******************************contact us end***********************/
+/*******************************footer start***********************/
+footer {
+    background-image: url('../../images/footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.f_footer {
+    padding: 0 0 140px;
+}
+
+.f_first_p {
+    color: #FFFFFF;
+    padding: 30px 0 0;
+    line-height: 27px;
+}
+
+.s_icon {
+    padding-top: 30px;
+}
+
+.c_s_icon {
+    width: 50px;
+    margin: 0 8px;
+    border: 1px solid #FFFFFF;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.c_s_icon:hover {
+
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+
+.c_s_icon i {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.f_hr {
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+
+}
+
+.second_f {
+    padding: 45px 0;
+    color: #FFFFFF;
+
+}
+
+.second_f_text {
+    padding: 8px;
+}
+
+.footer_pro {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.footer_link {
+    justify-content: end;
+}
+
+.footer_link li a {
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/*******************************footer end***********************/
